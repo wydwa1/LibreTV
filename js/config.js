@@ -132,11 +132,17 @@ const API_SITES = {
          name: 'jkun资源',
          adult: true
      },
-    // bwzy: {
-    //     api: 'https://api.bwzym3u8.com',
-    //     name: '百万资源',
-    //     adult: true
-    // },
+     bwzy: {
+         api: 'https://api.bwzym3u8.com',
+         name: '百万资源',
+         adult: true
+     },
+    huangcang: {
+         api: 'https://hsckzy.vip',
+         name: '黄色仓库',
+         adult: true,
+         detail: 'https://hsckzy.vip'
+     },
     // souav: {
     //     api: 'https://api.souavzy.vip',
     //     name: 'souav资源',
@@ -151,12 +157,6 @@ const API_SITES = {
     //     api: 'https://apilsbzy1.com',
     //     name: 'lsb资源',
     //     adult: true
-    // },
-    // huangcang: {
-    //     api: 'https://hsckzy.vip',
-    //     name: '黄色仓库',
-    //     adult: true,
-    //     detail: 'https://hsckzy.vip'
     // },
     // yutu: {
     //     api: 'https://yutuzy10.com',
@@ -259,4 +259,4 @@ const CUSTOM_API_CONFIG = {
 };
 
 // 隐藏内置黄色采集站API的变量
-const HIDE_BUILTIN_ADULT_APIS = false;
+const HIDE_BUILTIN_ADULT_APIS = true;
