@@ -28,7 +28,7 @@ const API_SITES = {
     },
     ruyi: {
         api: 'https://api.xinlangapi.com/xinlangapi.php/provide/vod/josn',
-        name: '如意资源',
+        name: '新浪资源',
     },
     bfzy: {
         api: 'https://bfzyapi.com/api.php/provide/vod/',
