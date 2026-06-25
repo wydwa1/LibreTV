@@ -27,7 +27,7 @@ const API_SITES = {
         name: '影库资源网',
     },
     ruyi: {
-        api: 'https://hw8.live/api.php/provide/vod/',
+        api: 'https://api.xinlangapi.com/xinlangapi.php/provide/vod/josn',
         name: '如意资源',
     },
     bfzy: {
